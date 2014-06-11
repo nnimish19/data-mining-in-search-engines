@@ -1,0 +1,1498 @@
+<zuiprezi>
+  <version>5</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-31696.62393989194" y="-26746.842751286844" width="63393.24787978388" height="53493.68550257369"/>
+      <aspectratio>off</aspectratio>
+      <mode type="normal"/>
+    </settings>
+    <object id="8" type="button" x="-27009.505460613786" y="-21864.309884467428" r="0" s="11.717796198195382" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>blank</parentTemplate>
+      </meta>
+      <layout/>
+    </object>
+    <object id="0_29517485" type="label" x="-27017.380730875415" y="-24175.3677316074" r="0" s="18.006849628026128" class="head">
+      <textfield>
+        <x>-192.85</x>
+        <y>-18.3</y>
+        <text><![CDATA[Data Mining in Search Engines]]></text>
+        <w>385.75</w>
+        <h>36.65</h>
+        <annotations>r0-29 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="26" type="button" x="-17534.16589278872" y="1627.684220497435" r="0" s="40.641565831554246" class="circle">
+      <type>circle</type>
+      <size>
+        <w>468.4</w>
+        <h>468.4</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="32" type="button" x="-21875.989869301186" y="3318.3063373425443" r="0" s="26.075412082509267" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="64" type="button" x="13941.396504450318" y="1849.4101155015792" r="0" s="71.65602749195115" class="circle">
+      <type>circle</type>
+      <size>
+        <w>311.31553649902344</w>
+        <h>311.31553649902344</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="10" type="shape" x="3676.835110929689" y="15419.426281721951" r="137.3462231115866" s="8.673873643193938" class="line3">
+      <geom type="arrow">
+        <sp>-522.8518101807344 0</sp>
+        <ep>522.8518101807344 0</ep>
+        <t>8</t>
+      </geom>
+      <layout/>
+    </object>
+    <object id="35" type="button" x="-21876.218038829076" y="5065.058158046738" r="0" s="11.504503278734989" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="36" type="label" x="-22155.155286665387" y="1332.3187666535866" r="0" s="36.50712446119407" class="head">
+      <textfield autoSize="true">
+        <x>-72.45</x>
+        <y>-18.3</y>
+        <text><![CDATA[Crawling]]></text>
+        <w>144.95</w>
+        <h>36.65</h>
+        <annotations>r0-8 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="37" type="labelwithplaceholder" x="-21333.91852025957" y="3519.27176965269" r="0" s="2.641340038485074" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="38" type="button" x="-13516.556845834317" y="3319.1049306901314" r="0" s="26.70286068053921" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="61" type="button" x="559.1550449419608" y="-21866.966258270648" r="0" s="31.66072264567421" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="41" type="button" x="-13516.44276107037" y="5103.048384439171" r="0" s="12.022285506886496" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="42" type="label" x="-13569.396753766014" y="3840.709763886812" r="0" s="3.9869824385082784" class="head">
+      <textfield autoSize="true">
+        <x>-146.2</x>
+        <y>-18.3</y>
+        <text><![CDATA[Tokenization Process]]></text>
+        <w>292.4</w>
+        <h>36.65</h>
+        <annotations>r0-20 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="43" type="label" x="-13477.311687038538" y="5123.0132181288855" r="0" s="3.299819131472545" class="body">
+      <textfield>
+        <x>-382.3</x>
+        <y>-280.55</y>
+        <text><![CDATA[Tokenization process transforms each web document into a set of keywords which represent the theme of the document. Text Extraction: Remove HTML tags from the web page. Get Title and Description. Eg: "<html><body>India love it's Taj Mahal</body></html>" would result in "India loves it's Taj Mahal".Split about non alpha-numeric characters: Get all the keywords from the text string by splitting it about non alpha-numeric characters. Eg: "India's Taj Mahal" would result in {"India","loves", "it","s", "Taj", "Mahal"} Convert lower case: To avoid case-sensitive mismatch. Eg: {"india","loves", "it","s", "taj", "mahal"} Apply Porter Stemmer: Just obtain the root words {"india","love", "it","s", "taj", "mahal"} Stopwords removal: {"india","love", "taj", "mahal"}]]></text>
+        <w>764.6</w>
+        <h>561.1</h>
+        <annotations>r0-117 { align: left; }
+r118-302 { bullet: true; }
+r118-302 { align: left; }
+r118-302 { blockIndent: 36; }
+r303-524 { bullet: true; }
+r303-524 { align: left; }
+r303-524 { blockIndent: 36; }
+r525-628 { bullet: true; }
+r525-628 { align: left; }
+r525-628 { blockIndent: 36; }
+r629-722 { bullet: true; }
+r629-722 { align: left; }
+r629-722 { blockIndent: 36; }
+r723-774 { bullet: true; }
+r723-774 { align: left; }
+r723-774 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="44" type="label" x="-27338.2321217925" y="-22769.741928793977" r="0" s="9.24036107038119" class="body">
+      <textfield>
+        <x>-334.85</x>
+        <y>-63.9</y>
+        <text><![CDATA[Web plays a vital role in our lives. It’s a tautology that the web captures almost all the aspects of human endeavor and provides a fertile ground for data mining through billions of web pages which are generated every year.]]></text>
+        <w>669.7</w>
+        <h>127.8</h>
+        <annotations>r0-224 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="45" type="label" x="-17804.64443988737" y="-2701.149887844876" r="0" s="48.59098265784932" class="head">
+      <textfield autoSize="true">
+        <x>-135.05</x>
+        <y>-18.3</y>
+        <text><![CDATA[Crawling and Indexing]]></text>
+        <annotations>r0-21 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="46" type="label" x="-21939.99142187223" y="2634.3681775148616" r="0" s="7.037538426191038" class="body">
+      <textfield>
+        <x>-392.4</x>
+        <y>-63.9</y>
+        <text><![CDATA[The first step in creating a search engine is to develop a way to collect the documents. A crawler automatically traverses the Web's hypertext structure by retrieving a document and recursively retrieving all documents that are referenced.]]></text>
+        <w>784.8</w>
+        <h>127.8</h>
+        <annotations>r0-90 { bullet: true; }
+r0-90 { align: left; }
+r0-90 { blockIndent: 36; }
+r90-240 { bullet: true; }
+r90-240 { align: left; }
+r90-240 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="49" type="image" x="-22014.010030266025" y="5461.440258799122" r="0" s="2.553080538465166">
+      <source w="428" h="221">
+        BFS.png
+        <url>BFS.png</url>
+      </source>
+      <sourceUrl>BFS.png</sourceUrl>
+      <layout/>
+    </object>
+    <object id="47" type="label" x="-21809.91492198856" y="4754.235841230734" r="0" s="3.2575345747285445" class="body">
+      <textfield>
+        <x>-393.1</x>
+        <y>-94.85</y>
+        <text><![CDATA[ A list of known Websites(URLs) is used to start the initial process. Every Website in this list is visited one by one. Web Crawler will discover more links from the Website being visited and place them in a queue to visit next. As each page will provide us with many links, more pages can be acquired. As the webpage is processed, a corresponding index entry is created. This process is repeated for every entry in our queue.]]></text>
+        <w>786.2</w>
+        <h>189.7</h>
+        <annotations>r0-70 { bullet: true; }
+r0-70 { align: left; }
+r0-70 { blockIndent: 36; }
+r70-304 { bullet: true; }
+r70-304 { align: left; }
+r70-304 { blockIndent: 36; }
+r304-374 { bullet: true; }
+r304-374 { align: left; }
+r304-374 { blockIndent: 36; }
+r374-429 { bullet: true; }
+r374-429 { align: left; }
+r374-429 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="48" type="label" x="-21876.42949032222" y="4164.0470100131115" r="0" s="5.664624519505318" class="head">
+      <textfield autoSize="true">
+        <x>-153.25</x>
+        <y>-18.3</y>
+        <text><![CDATA[How Web Crawlers work?]]></text>
+        <annotations>r0-22 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="50" type="label" x="-22016.842342525797" y="5843.377567026766" r="0" s="2.224939945856529" class="body">
+      <textfield autoSize="true">
+        <x>-189.4</x>
+        <y>-32.95</y>
+        <text><![CDATA[The sequence of crawler is 1,2,3,….,8….,until the last document of the site.]]></text>
+        <annotations>r0-41 { align: left; }
+r41-77 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="51" type="label" x="-13552.037207420031" y="1287.5975391886225" r="0" s="36.50712446119407" class="head">
+      <textfield autoSize="true">
+        <x>-54.7</x>
+        <y>-18.3</y>
+        <text><![CDATA[Indexing]]></text>
+        <w>109.4</w>
+        <h>36.65</h>
+        <annotations>r0-8 { align: right; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="52" type="label" x="-13368.97536857406" y="2615.3160219366773" r="0" s="8.515421495691161" class="body">
+      <textfield>
+        <x>-371.45</x>
+        <y>-48.4</y>
+        <text><![CDATA[As we are crawling each page we are simultaneously adding it to the index. But all the information on the web does not uniquely identifies it. So we need a mechanism for filtering the web text.]]></text>
+        <w>742.95</w>
+        <h>96.85</h>
+        <annotations>r0-76 { bullet: true; }
+r0-76 { align: left; }
+r0-76 { blockIndent: 36; }
+r76-194 { bullet: true; }
+r76-194 { align: left; }
+r76-194 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="53" type="button" x="-3470.455591134595" y="21997.734354435714" r="0" s="31.66072264567421" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="54" type="label" x="-3464.2817502186876" y="19243.25148426207" r="0" s="20.579469719688237" class="head">
+      <textfield autoSize="true">
+        <x>-132.65</x>
+        <y>-18.3</y>
+        <text><![CDATA[Datastore-Bigtable]]></text>
+        <w>265.3</w>
+        <h>36.65</h>
+        <annotations>r0-18 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="55" type="label" x="-3460.3398636452034" y="21854.214272667017" r="0" s="10.09817002783787" class="body">
+      <textfield>
+        <x>-362.45</x>
+        <y>-187.7</y>
+        <text><![CDATA[>BigTable is not a relational database. It is a distributed storage system (built by Google) for managing structured data that is designed to scale to a very large size: petabytes of data across thousands of commodity servers. >Many projects at Google store data in Bigtable, including web indexing, Google Earth, and Google Finance>Salient features- fast and extremely large-scale DBMS designed to scale into the petabyte range it works across hundreds or thousands of machines a sparse, distributed multi-dimensional sorted map.  each table has multiple dimensions (one of which is a field for time, allowing versioning)]]></text>
+        <w>724.95</w>
+        <h>375.4</h>
+        <annotations>r0-228 { align: left; }
+r228-334 { align: left; }
+r334-353 { align: left; }
+r353-390 { bullet: true; }
+r353-390 { align: left; }
+r353-390 { blockIndent: 36; }
+r390-433 { bullet: true; }
+r390-433 { align: left; }
+r390-433 { blockIndent: 36; }
+r433-484 { bullet: true; }
+r433-484 { align: left; }
+r433-484 { blockIndent: 36; }
+r484-538 { bullet: true; }
+r484-538 { align: left; }
+r484-538 { blockIndent: 36; }
+r538-629 { bullet: true; }
+r538-629 { align: left; }
+r538-629 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="56" type="button" x="-3470.6617732806035" y="24961.336762105788" r="0" s="8.65362317210483" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="57" type="labelwithplaceholder" x="8844.706366929824" y="13257.641017547983" r="0" s="5.624855061868142" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="58" type="labelwithplaceholder" x="8844.706366929824" y="13647.0540602927" r="0" s="3.8941304274471737" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="59" type="image" x="-3470.4340840974705" y="25064.40406567104" r="0" s="2.1356313877514275">
+      <source w="838" h="479">
+        Untitled.png
+        <url>Untitled.png</url>
+      </source>
+      <sourceUrl>Untitled.png</sourceUrl>
+      <layout/>
+    </object>
+    <object id="60" type="label" x="-3525.155384443967" y="24226.659664527255" r="0" s="6.07171155023576" class="head">
+      <textfield autoSize="true">
+        <x>-70.65</x>
+        <y>-18.3</y>
+        <text><![CDATA[Data Model]]></text>
+        <annotations>r0-10 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="62" type="label" x="560.3573182538315" y="-24653.19879227947" r="0" s="31.518651702818502" class="head">
+      <textfield autoSize="true">
+        <x>-75.05</x>
+        <y>-18.3</y>
+        <text><![CDATA[Querying]]></text>
+        <w>150.1</w>
+        <h>36.65</h>
+        <annotations>r0-8 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="63" type="label" x="579.1448294802603" y="-21725.901195901588" r="0" s="10.704226288920657" class="body">
+      <textfield>
+        <x>-341.3</x>
+        <y>-156.75</y>
+        <text><![CDATA[We now have a working crawler and a big collection of documents indexed, and so are ready to set up the search part of the search engine.Following types of searches can be supported-1. Keyword search: In the case of multi-keywords search like "India Taj", keyword search perform simple AND search.2. Phase search: For the exact phrase, exact word combination and position inputted from the user is searched. Eg "India loves it's Taj"]]></text>
+        <w>682.65</w>
+        <h>282.55</h>
+        <annotations>r0-138 { align: left; }
+r138-184 { align: left; }
+r185-301 { align: left; }
+r302-438 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="68" type="button" x="7696.126701982473" y="1630.9911348239011" r="0" s="24.76770777521602" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="67" type="label" x="13688.70878733046" y="-5141.189923810041" r="0" s="35.403565890587515" class="head">
+      <textfield>
+        <x>-145.45</x>
+        <y>-18.3</y>
+        <text><![CDATA[Searching and Ranking]]></text>
+        <w>290.9</w>
+        <h>36.65</h>
+        <annotations>r0-21 { align: right; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="70" type="labelwithplaceholder" x="29217.833570300365" y="839.6351316899613" r="0" s="8.813378016958275" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="71" type="button" x="7642.515469377524" y="3922.288597896367" r="0" s="6.066543524006226" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="74" type="label" x="7594.043248249399" y="-550.6156628418005" r="0" s="23.513133156476716" class="head">
+      <textfield autoSize="true">
+        <x>-60.65</x>
+        <y>-18.3</y>
+        <text><![CDATA[Searching]]></text>
+        <annotations>r0-9 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="75" type="label" x="7646.491750056663" y="1595.410278401946" r="0" s="9.971863772136873" class="body">
+      <textfield>
+        <x>-274.15</x>
+        <y>-141.25</y>
+        <text><![CDATA[Search string is passed through Tokenization process. A query is constructed such that only those URLs are returned which contain each and every token. Eg: Search string = "India Taj". Ouput = [[url1], [l1,l1'], [l2]]Now each combination from list 1, 2, and 3 are returned, that is, [[url1,l1,l2], [url1,l1',l2]] All permutations of locations are returned to support content based search.]]></text>
+        <w>548.3</w>
+        <h>282.55</h>
+        <annotations>r0-55 { bullet: true; }
+r0-55 { align: left; }
+r0-55 { blockIndent: 36; }
+r55-187 { bullet: true; }
+r55-187 { align: left; }
+r55-187 { blockIndent: 36; }
+r187-220 { align: left; }
+r187-220 { blockIndent: 36; }
+r220-317 { bullet: true; }
+r220-317 { align: left; }
+r220-317 { blockIndent: 36; }
+r317-392 { bullet: true; }
+r317-392 { align: left; }
+r317-392 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="76" type="label" x="7642.370981256369" y="3447.9501210181425" r="0" s="3.415290885736415" class="head">
+      <textfield>
+        <x>-182.65</x>
+        <y>-18.3</y>
+        <text><![CDATA[Query Construction Algorithm]]></text>
+        <annotations>r0-28 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="77" type="label" x="7684.883425579388" y="4017.37655137855" r="0" s="1.593258403759075" class="body">
+      <textfield>
+        <x>-415.85</x>
+        <y>-218.65</y>
+        <text><![CDATA[Query construction steps: 1. Get rows/entities which contains all search_word_ids from table WordLocation. Call it Q.2. Sort them according to url_ids.3. Creat a mapping structure(A), which appends all wordids locations to their respective bucket for a URL.4. For each entity in Q:        If current_url != previous_url  {            RESULT=RESULT+Permute(A)                      Reset A                      Intialize it with current_url-> A[0].append(current_url)        }        A(word_ID).append(location)}]]></text>
+        <w>831.75</w>
+        <h>437.3</h>
+        <annotations>r0-27 { align: left; }
+r27-119 { align: left; }
+r119-154 { align: left; }
+r154-261 { align: left; }
+r261-286 { align: left; }
+r286-325 { align: left; }
+r325-365 { align: left; }
+r325-365 { blockIndent: 36; }
+r365-395 { align: left; }
+r395-474 { align: left; }
+r474-484 { align: left; }
+r484-520 { align: left; }
+r520-521 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="78" type="button" x="17550.568759725385" y="3068.306209211408" r="0" s="40.30651546422252" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="79" type="label" x="17553.18868323055" y="-901.5897254780908" r="0" s="45.129265305220535" class="head">
+      <textfield autoSize="true">
+        <x>-68.7</x>
+        <y>-18.3</y>
+        <text><![CDATA[Ranking]]></text>
+        <w>137.45</w>
+        <h>36.65</h>
+        <annotations>r0-7 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="80" type="label" x="17545.87555105159" y="981.2932451771904" r="0" s="11.556966036440375" class="body">
+      <textfield>
+        <x>-354.1</x>
+        <y>-79.35</y>
+        <text><![CDATA[Retrieving every document with a given set of words is fairly straight forward once we have an index, but the real magic is in how the results are sorted.  Methods: Content Based, Using Inbound links, Machine Learning techniques]]></text>
+        <w>708.2</w>
+        <h>158.75</h>
+        <annotations>r0-72 { align: left; }
+r72-158 { align: left; }
+r158-230 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="81" type="button" x="14225.001492342544" y="4130.4471910540715" r="0" s="11.016722521197847" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="82" type="labelwithplaceholder" x="22699.554263167924" y="1497.84209417162" r="0" s="2.609646369817273" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="83" type="labelwithplaceholder" x="22699.554263167924" y="1678.5099197743546" r="0" s="1.806678256027344" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="84" type="button" x="17500.457847574788" y="6599.420653139965" r="0" s="11.016722521197847" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="85" type="labelwithplaceholder" x="22699.55426316792" y="-3569.850265579388" r="0" s="2.609646369817273" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="86" type="labelwithplaceholder" x="22699.55426316792" y="-3389.1824399766533" r="0" s="1.8066782560273436" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="87" type="button" x="17500.531351146197" y="7472.68239838421" r="0" s="4.014840568949653" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="88" type="labelwithplaceholder" x="22699.554263167924" y="6425.818002123181" r="0" s="3.653504917744184" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="89" type="labelwithplaceholder" x="22699.554263167924" y="6678.75295796701" r="0" s="2.5293495584382812" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="90" type="label" x="14166.185899281918" y="3017.6182601089927" r="0" s="6.195624030852818" class="head">
+      <textfield>
+        <x>-141.05</x>
+        <y>-18.3</y>
+        <text><![CDATA[Content Based Ranking]]></text>
+        <annotations>r0-21 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="91" type="label" x="14228.529366092367" y="4164.304355739231" r="0" s="3.1689098806871168" class="body">
+      <textfield>
+        <x>-377.7</x>
+        <y>-280.55</y>
+        <text><![CDATA[Content-based ranking uses several possible metrics with just the content of the page to determine the relevance of the query. These scoring metrics include:Word Location: The number of times the words in the query appear in the document can help determine how relevant the document is. URL Score = No. of keyword (frequency)/ No. of total words in the page. OrURL Score = #occurrences of urlid in permutations(RESULTS)Document location: If a page is relevant to the search term, the term shall appear closer to the top of the page, perhaps even in the title.URL Score:  among all permutations the one with lowest sum of locations(of wordids)Word Distance: When a query contains multiple words, it is often useful to seek results in which the words in the query are close to each other in the page.URL Score:  among all permutations the one with minimum absolute difference  b/w locations(of wordids).]]></text>
+        <w>755.4</w>
+        <h>561.1</h>
+        <annotations>r0-158 { align: left; }
+r159-290 { bullet: true; }
+r159-290 { align: left; }
+r159-290 { blockIndent: 36; }
+r290-365 { align: left; }
+r365-424 { align: left; }
+r425-566 { bullet: true; }
+r425-566 { align: left; }
+r425-566 { blockIndent: 36; }
+r566-650 { align: left; }
+r651-808 { bullet: true; }
+r651-808 { align: left; }
+r651-808 { blockIndent: 36; }
+r808-911 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="92" type="label" x="17526.824030627147" y="5686.786026960846" r="0" s="8.673873643193941" class="head">
+      <textfield autoSize="true">
+        <x>-123.8</x>
+        <y>-18.3</y>
+        <text><![CDATA[In-bound Link Based]]></text>
+        <annotations>r0-19 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="93" type="label" x="17565.052434657257" y="6429.5111978507475" r="0" s="4.89617554416356" class="body">
+      <textfield>
+        <x>-276</x>
+        <y>-94.85</y>
+        <text><![CDATA[The results can be improved by considering information that others have provided about the page, like those who have linked to this page. Helps to combat spamming as people often give references to original papers or websites. Thus the overall score of original web page increases.]]></text>
+        <w>552</w>
+        <h>189.7</h>
+        <annotations>r0-139 { align: left; }
+r139-282 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="94" type="label" x="17499.663963781884" y="7121.8242095170135" r="0" s="2.1684684107984853" class="head">
+      <textfield autoSize="true">
+        <x>-127.25</x>
+        <y>-18.3</y>
+        <text><![CDATA[Page Rank Algorithm]]></text>
+        <annotations>r0-19 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="96" type="image" x="17488.821621727897" y="7673.265726383072" r="0" s="1.3801998553703363">
+      <source w="379" h="189">
+        Pagerank.png
+        <url>Pagerank.png</url>
+      </source>
+      <sourceUrl>Pagerank.png</sourceUrl>
+      <layout/>
+    </object>
+    <object id="95" type="label" x="17477.003468889034" y="7366.535869675625" r="0" s="1.34644827464498" class="body">
+      <textfield>
+        <x>-352.75</x>
+        <y>-125.8</y>
+        <text><![CDATA[The algorithm assigns every page a score that indicates how important that page is. The importance of the page is calculated from the importance of all the other pages that link to it and from the number of links each of the other pages has. In theory, PageRank calculates the probability that someone randomly clicking on links will arrive at a certain page. The probability would be higher if a page has more inbound links]]></text>
+        <w>705.5</w>
+        <h>251.6</h>
+        <annotations>r0-85 { bullet: true; }
+r0-85 { align: left; }
+r0-85 { blockIndent: 36; }
+r85-244 { bullet: true; }
+r85-244 { align: left; }
+r85-244 { blockIndent: 36; }
+r244-426 { bullet: true; }
+r244-426 { align: left; }
+r244-426 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="97" type="label" x="17488.79895373704" y="7830.267645668245" r="0" s="1.0116065173891653" class="body">
+      <textfield>
+        <x>-358.6</x>
+        <y>-17.45</y>
+        <text><![CDATA[PR(A) = 0.15 + 0.85 * ( PR(B)/links(B) + PR(C)/links(C) + PR(D)/links(D) )]]></text>
+        <annotations>r0-74 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="104" type="button" x="20608.70554776421" y="3922.628551355742" r="0" s="11.727527129868909" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="99" type="label" x="20547.616840117786" y="2882.792664131114" r="0" s="7.831612258956408" class="head">
+      <textfield autoSize="true">
+        <x>-122.6</x>
+        <y>-18.3</y>
+        <text><![CDATA[Neural Networks]]></text>
+        <w>245.2</w>
+        <h>36.65</h>
+        <annotations>r0-15 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="100" type="label" x="20588.23903948616" y="3335.989905467557" r="0" s="2.529349558438282" class="body">
+      <textfield>
+        <x>-541.55</x>
+        <y>-79.35</y>
+        <text><![CDATA[Finally, we have built a neural network for ranking queries. The neural network will learn to associate searches with results based on what links people click on after they get a list of search results. The neural network will use this information to change the ordering of the results to better reflect what people have clicked on in the past.]]></text>
+        <w>1083.1</w>
+        <h>158.75</h>
+        <annotations>r0-62 { bullet: true; }
+r0-62 { align: left; }
+r0-62 { blockIndent: 36; }
+r62-205 { bullet: true; }
+r62-205 { align: left; }
+r62-205 { blockIndent: 36; }
+r205-346 { bullet: true; }
+r205-346 { align: left; }
+r205-346 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="105" type="labelwithplaceholder" x="29747.400852042138" y="14873.64810795492" r="0" s="19.64942628880848" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="106" type="labelwithplaceholder" x="29747.400852042138" y="16233.99300487243" r="0" s="13.6034489691751" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="113" type="button" x="19689.166518165108" y="4225.943070316177" r="0" s="3.6691186846217994" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="116" type="image" x="19689.078601094985" y="4027.2395923321537" r="0" s="0.8071905358611596">
+      <source w="395" h="357">
+        nn.png
+        <url>nn.png</url>
+      </source>
+      <sourceUrl>nn.png</sourceUrl>
+      <layout/>
+    </object>
+    <object id="108" type="label" x="19689.166518165108" y="3860.716799364446" r="0" s="2.384927145004167" class="head">
+      <textfield autoSize="true">
+        <x>-112.5</x>
+        <y>-18.3</y>
+        <text><![CDATA[Representation]]></text>
+        <w>225.05</w>
+        <h>36.65</h>
+        <annotations>r0-14 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="111" type="labelwithplaceholder" x="24654.70240756898" y="3157.4074061317942" r="0" s="5.717169475811093" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="112" type="labelwithplaceholder" x="24654.70240756898" y="3553.2114467648703" r="0" s="3.958040406330755" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="114" type="labelwithplaceholder" x="22945.786664728977" y="-358.995256045717" r="0" s="5.71716947581109" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="115" type="labelwithplaceholder" x="24654.70240756898" y="-492.7854130399032" r="0" s="3.958040406330755" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="117" type="label" x="19706.42523172328" y="4400.997761261724" r="0" s="1.0638758009492255" class="body">
+      <textfield>
+        <x>-362.1</x>
+        <y>-172.2</y>
+        <text><![CDATA[Input layer: Search Words IDs{w1,w2,w3}Ouput layer: URL IDs {u1,u2}Hiden layer: Search term associations (w1_w2_w3)If user clicks a url then it means that this url is more appropriate for the search terms(w1,w2,w3) than other urls. So score of synapse weights for this url should be moreFurther, the synapse weights b/w input/hidden layer represent degree of affinity b/w search terms. Eg: If user clicks "World bank" more than "World Trade", then term "World" is more strongly associated to "Bank" than "Trade". NN captures this as it updates the synapse weights b/w input/hidden layer.]]></text>
+        <w>724.25</w>
+        <h>344.45</h>
+        <annotations>r0-40 { align: left; }
+r40-69 { align: left; }
+r69-118 { align: left; }
+r118-235 { bullet: true; }
+r118-235 { align: left; }
+r118-235 { blockIndent: 36; }
+r235-292 { bullet: true; }
+r235-292 { align: left; }
+r235-292 { blockIndent: 36; }
+r292-592 { bullet: true; }
+r292-592 { align: left; }
+r292-592 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="118" type="button" x="20367.300801932062" y="5014.398184482507" r="0" s="2.7986342831224413" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="119" type="labelwithplaceholder" x="22428.390101912453" y="4775.224763880473" r="0" s="2.083516572817454" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="120" type="labelwithplaceholder" x="22428.390101912453" y="4919.468218921681" r="0" s="1.4424345504120837" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="121" type="label" x="21375.951885488827" y="3787.3376678034247" r="0" s="2.650596882745772" class="head">
+      <textfield autoSize="true">
+        <x>-104.15</x>
+        <y>-18.3</y>
+        <text><![CDATA[BackPropagation]]></text>
+        <annotations>r0-15 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="122" type="label" x="21404.804513078605" y="4241.013925771227" r="0" s="0.973150251487279" class="body">
+      <textfield>
+        <x>-467.25</x>
+        <y>-373.4</y>
+        <text><![CDATA[For training, we know the expected output through user clicks. If user clicked a url, this output is treated as 1 and rest being 0.For each node in the output layer:1. Calculate by how much node’s output should change. Error is calculated as:  E=True_output – Node_output2. Calculate how much node’s input should change to get True_outputDelta = outputFn_derivative_wrt_Nodeoutput * E3. Change the strength of every incoming link in proportion to the link’s current strength and the learning rate. Say jth node is the node under observation and there’s a link from ith node at previous level to this node, w[i][j]. ThenW[i][j] = W[i][j] + alpha*delta*O(i)where alpha is the learning rate and O(i) is the output of the ith node at previous level.For each node in the hidden layer:1. Calculate by how much node’s output should change. A hidden node has effect of its output on all the nodes of next level as it is liked to each of them. So its error is dependent on error in each of them and weight of links connecting them. Links weights gave a sense of how much this node’s output affects a next level node’s input. Thus the error is propagated in the same ratio.E = summation (w[i][j] * E(j))where i is the ith node of current level, j is the jth node of next level.2. Calculate by how much node’s input should change i.e., delta.3. Change the strength of every input link in proportion to the link’s current strength and the learning rate.]]></text>
+        <w>934.55</w>
+        <h>746.8</h>
+        <annotations>r0-132 { align: left; }
+r133-168 { align: left; }
+r168-246 { align: left; }
+r246-276 { align: left; }
+r246-276 { blockIndent: 216; }
+r276-344 { align: left; }
+r344-391 { align: left; }
+r344-391 { blockIndent: 216; }
+r391-627 { align: left; }
+r627-664 { align: left; }
+r627-664 { blockIndent: 252; }
+r664-755 { align: left; }
+r756-791 { align: left; }
+r791-1176 { align: left; }
+r1176-1207 { align: left; }
+r1176-1207 { blockIndent: 252; }
+r1207-1282 { align: left; }
+r1282-1347 { align: left; }
+r1347-1457 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="123" type="button" x="21385.559355932768" y="4226.1057054469875" r="0" s="4.487574156837592" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="124" type="labelwithplaceholder" x="22945.786664728977" y="7732.998463563828" r="0" s="5.71716947581109" class="head">
+      <placeholder text="Click to add text" x="-99.2" y="-18.3" align="center" width="198.4"/>
+      <layout/>
+    </object>
+    <object id="125" type="labelwithplaceholder" x="22945.786664728977" y="8128.802504196902" r="0" s="3.958040406330755" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="126" type="label" x="20367.300801932062" y="4753.8024932148" r="0" s="2.1684684107984857" class="head">
+      <textfield autoSize="true">
+        <x>-114.35</x>
+        <y>-18.3</y>
+        <text><![CDATA[Rank Computation]]></text>
+        <annotations>r0-16 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="127" type="label" x="20381.207069137778" y="5035.677224486004" r="0" s="1.2240438860408904" class="body">
+      <textfield>
+        <x>-254.9</x>
+        <y>-156.75</y>
+        <text><![CDATA[Rank is computed by feeding forward. As discussed output layer nodes represent URLs, so corresponding out put value represents URL score.Input Layer Computation: linear activation Fucntion. O{i} = I{i}Hidden layer Computation: non-linear activation function,hyperbolic tangent (tanh) function is used. O{h} = tanh(I{h})Output layer Computation. O{o} = tanh(I{o})]]></text>
+        <w>509.85</w>
+        <h>313.5</h>
+        <annotations>r136-137 { color: #000; }
+ r0-138 { align: left; }
+r139-204 { bullet: true; }
+r139-204 { align: left; }
+r139-204 { blockIndent: 36; }
+r204-323 { bullet: true; }
+r204-323 { align: left; }
+r204-323 { blockIndent: 36; }
+r323-366 { bullet: true; }
+r323-366 { align: left; }
+r323-366 { blockIndent: 36; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="128" type="button" x="22505.410654979372" y="-21867.77943392469" r="0" s="32.52708878241436" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="129" type="label" x="22505.30223155884" y="-25020.353021253784" r="0" s="16.254219297408913" class="head">
+      <textfield autoSize="true">
+        <x>-147.9</x>
+        <y>-18.3</y>
+        <text><![CDATA[Results are Displayed]]></text>
+        <w>295.85</w>
+        <h>36.65</h>
+        <annotations>r0-21 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="131" type="image" x="22504.32642077398" y="-21610.548870906317" r="0" s="6.584272091918408">
+      <source w="811" h="464">
+        flowdiagram2.png
+        <url>flowdiagram2.png</url>
+      </source>
+      <sourceUrl>flow diagram2.png</sourceUrl>
+      <layout/>
+    </object>
+    <object id="130" type="labelwithplaceholder" x="22106.674116245693" y="-21942.02674740664" r="0" s="8.359101374135413" class="strong">
+      <placeholder text="Click to add text" x="-85.95" y="-17.5" align="center" width="171.9"/>
+      <layout/>
+    </object>
+    <object id="132" type="label" x="22607.957386847807" y="-24450.74439045846" r="0" s="8.359101374135413" class="strong">
+      <textfield>
+        <x>-330.2</x>
+        <y>-17.5</y>
+        <text><![CDATA[and system quietly waits for the user's response in the back-end]]></text>
+        <annotations>r0-64 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="133" type="shape" x="5527.488573958461" y="-12909.080761155034" r="56.221720906835536" s="138.78197829110306" class="line3">
+      <geom type="arrow">
+        <sp>-41.22860634399738 0</sp>
+        <ep>41.22860634399738 0</ep>
+        <t>8</t>
+      </geom>
+      <layout/>
+    </object>
+    <object id="134" type="shape" x="-23178.560132517592" y="-12233.72298818647" r="62.08641984128684" s="138.78197829110312" class="line3">
+      <geom type="arrow">
+        <sp>-39.598889787098194 0</sp>
+        <ep>39.59888978709819 0</ep>
+        <t>8</t>
+      </geom>
+      <layout/>
+    </object>
+    <object id="135" type="shape" x="-10000.057254540934" y="14167.81931025476" r="48.80759671099826" s="138.78197829110306" class="line3">
+      <geom type="arrow">
+        <sp>-38.98614890431612 0</sp>
+        <ep>38.98614890431612 0</ep>
+        <t>8</t>
+      </geom>
+      <layout/>
+    </object>
+    <object id="136" type="shape" x="3815.882874260664" y="14504.858228848198" r="-48.96286840172392" s="138.781978291103" class="line3">
+      <geom type="arrow">
+        <sp>38.10354977572646 0</sp>
+        <ep>-38.10354977572645 0</ep>
+        <t>8</t>
+      </geom>
+      <layout/>
+    </object>
+    <object id="137" type="shape" x="19574.65180405748" y="-12763.257276863029" r="-64.0801346026299" s="138.781978291103" class="line3">
+      <geom type="arrow">
+        <sp>-33.344365746937356 0</sp>
+        <ep>33.344365746937356 0</ep>
+        <t>8</t>
+      </geom>
+      <layout/>
+    </object>
+    <object id="0" type="label" x="-27182.31139205306" y="-23677.59560750424" r="0" s="13.528812643145095" class="strong">
+      <textfield autoSize="true">
+        <x>-131.9</x>
+        <y>-17.5</y>
+        <text><![CDATA[web click stream analysis]]></text>
+        <annotations>r0-25 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="2" type="button" x="-28794.499999999985" y="-20359.94999999999" r="0" s="11.822692931940093" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="3" type="label" x="-28794.91528460883" y="-21363.06997268438" r="0" s="7.684750405761067" class="head">
+      <textfield autoSize="true">
+        <x>-127.85</x>
+        <y>-18.3</y>
+        <text><![CDATA[Why Data Mining?]]></text>
+        <w>255.7</w>
+        <h>36.65</h>
+        <annotations>r0-16 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="4" type="label" x="-28762.038586407976" y="-20288.728689581712" r="0" s="3.4236664561804027" class="body">
+      <textfield>
+        <x>-370.95</x>
+        <y>-234.1</y>
+        <text><![CDATA[•Complexity of a web page far exceeds the complexity of any traditional text document collection. Web pages lack uniformity and a tremendous amount of pages have not been indexed. So system should provide best results from knowledge in hand.•The Web constitutes a highly dynamic information source. Not only does the Web continue to grow rapidly, the information it holds also receives constant updates. Linkage information also undergoes frequent updates. So probabilistic models like PageRank which capture inbound links are not enough. •Only a small portion of the Web’s pages contain truly relevant or useful information. •Searching, comprehending, and using the semi-structured information stored on the Web poses a significant challenge.]]></text>
+        <w>741.9</w>
+        <h>468.25</h>
+        <annotations>r0-242 { align: left; }
+r243-542 { align: left; }
+r543-631 { align: left; }
+r632-749 { align: left; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="5" type="button" x="-25075.799999999985" y="-20536.849999999988" r="0" s="11.728299350322422" class="circle">
+      <type>circle</type>
+      <size>
+        <w>300</w>
+        <h>300</h>
+      </size>
+      <layout/>
+    </object>
+    <object id="6" type="label" x="-25075.756490813328" y="-21362.16204347805" r="0" s="7.623394577709578" class="head">
+      <textfield>
+        <x>-89.25</x>
+        <y>-18.3</y>
+        <text><![CDATA[Goal]]></text>
+        <w>178.5</w>
+        <h>36.65</h>
+        <annotations>r0-4 { align: center; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+    <object id="9" type="label" x="-25212.526968086968" y="-20431.07142195865" r="0" s="4.903176564459866" class="body">
+      <textfield>
+        <x>-276</x>
+        <y>-141.25</y>
+        <text><![CDATA[The aim of the project is to supplement keyword-based indexing and models based on linkage information, which forms the cornerstone for Web search engines, with data mining techniques for web click stream analysis for ranking the web pages. Data mining helps Web search engines find high-quality Web pages and enhances Web click stream analysis.]]></text>
+        <w>552</w>
+        <h>282.55</h>
+        <annotations>r0-242 { bullet: true; }
+r0-242 { align: left; }
+r0-242 { blockIndent: 72; }
+r242-346 { bullet: true; }
+r242-346 { align: left; }
+r242-346 { blockIndent: 72; }</annotations>
+      </textfield>
+      <layout/>
+    </object>
+  </zui-table>
+  <path>
+    <s>
+      <eagle o="8"/>
+    </s>
+    <s>
+      <eagle o="2"/>
+    </s>
+    <s>
+      <eagle o="5"/>
+    </s>
+    <s>
+      <eagle o="26"/>
+    </s>
+    <s>
+      <eagle o="32"/>
+    </s>
+    <s>
+      <eagle o="35"/>
+    </s>
+    <s>
+      <eagle o="38"/>
+    </s>
+    <s>
+      <eagle o="41"/>
+    </s>
+    <s>
+      <eagle o="53"/>
+    </s>
+    <s>
+      <eagle o="56"/>
+    </s>
+    <s>
+      <eagle o="61"/>
+    </s>
+    <s>
+      <eagle o="64"/>
+    </s>
+    <s>
+      <eagle o="68"/>
+    </s>
+    <s>
+      <eagle o="71"/>
+    </s>
+    <s>
+      <eagle o="78"/>
+    </s>
+    <s>
+      <eagle o="81"/>
+    </s>
+    <s>
+      <eagle o="84"/>
+    </s>
+    <s>
+      <eagle o="87"/>
+    </s>
+    <s>
+      <eagle o="104"/>
+    </s>
+    <s>
+      <eagle o="113"/>
+    </s>
+    <s>
+      <eagle o="118"/>
+    </s>
+    <s>
+      <eagle o="123"/>
+    </s>
+    <s>
+      <eagle o="128"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('OpenSans-Bold.swf');
+	fontFamily: head;
+}
+
+@font-face
+{
+	src: url('CrimsonText.swf');
+	fontFamily: body;
+}
+
+@font-face
+{
+	src: url('PTSans.swf');
+	fontFamily: strong;
+}
+
+background
+{
+	gradStart: #808080;
+	gradEnd: #808080;
+}
+
+text
+{
+	padding: 1.2;
+}
+
+text.title
+{
+	fontFamily: head;
+	color: #fff808;
+}
+
+text.subtitle
+{
+	fontFamily: strong;
+	color: #fff;
+}
+
+text.body
+{
+	fontFamily: body;
+	color: #fff;
+}
+
+frame.circle
+{
+	borderColor: #999;
+	gradEndColor: #333;
+	borderThickness: 0;
+	gradStartColor: #333;
+}
+
+frame.bracket
+{
+	borderColor: #fff;
+	gradEndColor: #c5c3c3;
+	borderThickness: 0;
+	gradStartColor: #fff;
+	thickness: 7;
+}
+
+frame.rectangle
+{
+	radius: 0;
+	gradEndColor: #000;
+	borderThickness: 0;
+	borderColor: #fff;
+	gradStartColor: #000;
+}
+
+arrow
+{
+	borderColor: #fff;
+	gradEndColor: #fff808;
+	borderThickness: -1;
+	gradStartColor: #fff808;
+}
+
+line
+{
+	color: #fff808;
+}
+
+line-arrow.style1
+{
+	gradEndColor: #fff;
+	color: #fff;
+	gradStartColor: #fff;
+}
+
+line-arrow.style2
+{
+	gradEndColor: #c5c3c3;
+	color: #c5c3c3;
+	gradStartColor: #c5c3c3;
+}
+
+line-arrow.style3
+{
+	gradEndColor: #fff808;
+	color: #fff808;
+	gradStartColor: #fff808;
+}
+
+line-arrow.style4
+{
+	gradEndColor: #333;
+	color: #333;
+	gradStartColor: #333;
+}
+
+line-arrow.style5
+{
+	gradEndColor: #000;
+	color: #000;
+	gradStartColor: #000;
+}
+
+circle
+{
+	lockTintAlpha: 0.6;
+	radius: 0;
+	borderAlpha: 1;
+	thickness: 100;
+}
+
+shape
+{
+	borderAlpha: 1;
+	gradStartAlpha: 0.7;
+	thickness: 100;
+	gradEndAlpha: 0.8;
+	radius: 0;
+	lockTintAlpha: 0.6;
+}
+
+shape.style1
+{
+	borderColor: #fff;
+	gradEndColor: #fff;
+	borderThickness: 0;
+	gradStartColor: #fff;
+}
+
+shape.style2
+{
+	borderColor: #c5c3c3;
+	gradEndColor: #c5c3c3;
+	borderThickness: 0;
+	gradStartColor: #c5c3c3;
+}
+
+shape.style3
+{
+	borderColor: #fff808;
+	gradEndColor: #fff808;
+	borderThickness: 0;
+	gradStartColor: #fff808;
+}
+
+shape.style4
+{
+	borderColor: #333;
+	gradEndColor: #333;
+	borderThickness: 0;
+	gradStartColor: #333;
+}
+
+shape.style5
+{
+	borderColor: #000;
+	gradEndColor: #000;
+	borderThickness: 0;
+	gradStartColor: #000;
+}
+
+free-line
+{
+	color: #fff808;
+}
+
+free-marker
+{
+	color: #ffff0d;
+	alpha: 0.3;
+}
+
+grid
+{
+	color: #ddd;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	gradStartAlpha: 1;
+	thickness: 100;
+	gradEndAlpha: 1;
+	radius: 0;
+	lockTintAlpha: 0;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradStartAlpha: 1;
+	thickness: 100;
+	gradEndAlpha: 1;
+	radius: 0;
+	lockTintAlpha: 0;
+}
+
+Background
+{
+	gradStart: #fff;
+	gradEnd: #fff;
+}
+
+ZLabel
+{
+	padding: 1.2;
+}
+
+ZLabel.head
+{
+	fontFamily: head;
+	color: #004f75;
+}
+
+.line5
+{
+	gradEndColor: #333;
+	color: #333;
+	gradStartColor: #333;
+}
+
+.poly5
+{
+	color: #fff;
+	borderColor: #333;
+	gradEndColor: #fff;
+	borderThickness: 9;
+	gradStartColor: #fff;
+}
+
+ZLabel.strong
+{
+	fontFamily: strong;
+	color: #318bff;
+}
+
+.line1
+{
+	gradEndColor: #3fc0ff;
+	color: #3fc0ff;
+	gradStartColor: #3fc0ff;
+}
+
+.poly1
+{
+	color: #fff;
+	borderColor: #3fc0ff;
+	gradEndColor: #fff;
+	borderThickness: 9;
+	gradStartColor: #fff;
+}
+
+ZLabel.body
+{
+	fontFamily: body;
+	color: #333;
+}
+
+ZFrame.circle
+{
+	borderColor: #004f75;
+	gradEndColor: #004f75;
+	borderThickness: 0;
+	gradStartColor: #004f75;
+	thickness: 10;
+}
+
+.line4
+{
+	gradEndColor: #ffbe00;
+	color: #ffbe00;
+	gradStartColor: #ffbe00;
+}
+
+.poly4
+{
+	color: #fff;
+	borderColor: #004f75;
+	gradEndColor: #004f75;
+	borderThickness: 0;
+	gradStartColor: #004f75;
+}
+
+ZFrame.bracket
+{
+	borderColor: #b2b2b2;
+	gradEndColor: #b2b2b2;
+	borderThickness: 0;
+	gradStartColor: #b2b2b2;
+	thickness: 10;
+}
+
+.line2
+{
+	borderColor: #fff;
+	gradEndColor: #f00;
+	color: #f00;
+	gradStartColor: #f00;
+}
+
+.poly2
+{
+	color: #fff;
+	borderColor: #3fc0ff;
+	gradEndColor: #3fc0ff;
+	borderThickness: 0;
+	gradStartColor: #3fc0ff;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #3fc0ff;
+	gradEndColor: #3fc0ff;
+	borderThickness: 0;
+	gradStartColor: #3fc0ff;
+}
+
+ZArrow
+{
+	borderColor: #fff;
+	gradEndColor: #333;
+	borderThickness: 0;
+	gradStartColor: #333;
+	lockTintAlpha: 0;
+}
+
+.line3
+{
+	gradEndColor: #004f75;
+	color: #004f75;
+	gradStartColor: #004f75;
+}
+
+.poly3
+{
+	color: #fff;
+	borderColor: #004f75;
+	gradEndColor: #fff;
+	borderThickness: 9;
+	gradStartColor: #fff;
+}
+
+ZLine
+{
+	color: #333;
+	lockTintAlpha: 0;
+}
+
+ZCurveLine
+{
+	color: #333;
+}
+
+ZMarker
+{
+	color: #00e1ff;
+	alpha: 0.3;
+}
+
+Grid
+{
+	color: #b8b8b8;
+}
+
+ZPath
+{
+	textColor: #fff;
+	thickness: 3;
+	color: #40abe6;
+	alpha: 1;
+}
+
+ZPath Ball.mid
+{
+	radius: 8;
+	fillColor: #40abe6;
+	alpha: .5;
+}
+
+ZPath Ball.base
+{
+	radius: 12;
+	fillColor: #40abe6;
+	alpha: 1;
+}
+
+]]></style>
+  <hash>-63594392</hash>
+  <sync>
+    <oid>UNKNOWN</oid>
+    <hash>UNKNOWN</hash>
+  </sync>
+  <config>nSkWU36ylKJrkwAbC6UB3xR7UCIXW1/Nrw==</config>
+</zuiprezi>
